@@ -3,9 +3,15 @@
 -1までのrangeを渡すと、後ろから数えた部分文字列を返す。
 -1じゃない方の値は、正数なら頭から。負数なら後ろから数えた位置。
 
-```ruby:
-    "ABCDEF"[3...-1]
-    "ABCDEF"[-3...-1]
+```ruby
+def foo
+  x = 10 if false
+    puts x
+  end
+"ABCDEF"[3...-1]
+"ABCDEF"[-3...-1]
+end
+foo
 ```
 
 問題と関係ないけど
